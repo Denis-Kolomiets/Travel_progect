@@ -1,0 +1,38 @@
+@import "./header.css";
+@import "./reset.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./media.css";
+@import "./burger.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --container-width: 1270px;
+    --container-padding: 15px;
+    --secondary: rgba(15, 31, 28, 0.5);
+    --burger_width: 40px;
+    --burger_height: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #F6F6F6;
+    color: #0F1F1C;
+} 
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+.container-right {
+    padding-left: calc( (100% - var(--container-width))/ 2 + var(--container-padding) );
+}
+
+
+

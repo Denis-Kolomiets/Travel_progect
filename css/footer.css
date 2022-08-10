@@ -1,0 +1,29 @@
+
+.footer{
+    padding: 116px 0px 74px 0px;
+}
+.footer a {
+    color: rgba(15, 31, 28, 0.5);   
+}
+.footer--logo a{
+    color:#FF7C4E;
+}
+
+.nav__list--footer {
+    
+}
+
+.footer--button {
+}
+.footer--button a{
+    color: #fff;
+}
+
+.nav__login--footer{
+    column-gap: 66px;
+}
+
+.nav__list.nav__list--footer a.active::after,
+.nav__list.nav__list--footer a:hover::after {
+    display: none;
+}
